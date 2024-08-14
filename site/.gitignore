@@ -1,0 +1,4 @@
+.env
+node_modules
+.appengine_build_output
+.svelte-kit
