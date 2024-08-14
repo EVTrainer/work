@@ -1,0 +1,71 @@
+:root{
+  --grey: rgb(100, 100, 100);
+  /* --offwhite: rgb(255,250,240); */
+  --grack: rgb(45,45,45);
+
+  --offwhite_grack: rgb(255,250,240);
+  --offwhite_gentle: rgb(255,250,240);
+  --offwhite_pop: rgb(255,250,240);
+  --offwhite_bang: rgb(255,250,240);
+  --grack_gentle: rgb(45,45,45);
+  --grack_dark: rgb(45,45,45);
+  --grack_pop: rgb(45,45,45);
+  --grack_bang: rgb(45,45,45);
+
+  --highlight: yellow;
+
+  --bannerHeight: 8vh;
+
+  /* border radius sizes */
+  --r1: 7.5vw;
+  --r2: 3.5vw;
+  --r3: 2.5vw;
+  --r4: 1.5vw;
+  --r5: 0.75vw;
+  --r6: 0.5vw;
+}
+
+@media screen and (max-width:35.5625em){
+  :root{
+    --r1: 22.5vw;
+    --r2: 10.5vw;
+    --r3: 7.5vw;
+    --r4: 4.5vw;
+    --r5: 3vw;
+    --r6: 1.5vw;
+  }
+}
+
+:root.light{
+  --grey: rgb(100, 100, 100);
+  /* --offwhite: rgb(255,250,240); */
+  --grack: rgb(45,45,45);
+
+  --offwhite_grack: rgb(255,250,240);
+  --offwhite_gentle: rgb(255,250,240);
+  --offwhite_pop: rgb(255,250,240);
+  --offwhite_bang: rgb(255,250,240);
+  --grack_gentle: rgb(45,45,45);
+  --grack_dark: rgb(45,45,45);
+  --grack_pop: rgb(45,45,45);
+  --grack_bang: rgb(45,45,45);
+
+  --highlight: yellow;
+}
+
+:root.dark{
+  --grey: rgb(42.5, 45, 45);
+  /* --offwhite: rgb(36,36,36); */
+  --grack: rgb(36,36,36);
+
+  --offwhite_grack: rgb(36,36,36);
+  --offwhite_gentle: rgb(195, 190, 180);
+  --offwhite_pop: rgb(100,200,180);
+  --offwhite_bang: rgb(230,50,200);
+  --grack_gentle: rgb(195, 190, 180);
+  --grack_dark: rgb(30,30,31);
+  --grack_pop: rgb(100,200,180);
+  --grack_bang: rgb(210,20,170);
+
+  --highlight: rgb(125,50,75);
+}

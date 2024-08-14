@@ -1,0 +1,190 @@
+/*links to downloaded typefaces */
+@font-face{
+  font-family: c10p;
+  src: url(/typefaces/courier10Pitch/courier10PitchRegular.otf);
+}
+
+*{
+  /* includes padding and border in all elements' total width and height. */
+  box-sizing: border-box;
+  /* makes weird blue box not show up for button tap on mobile */
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/* removes blue box when clicking button on mobile */
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* styles scrollbar */
+::-webkit-scrollbar{
+  width: 1vw;
+  height: 1vw;
+}
+
+::-webkit-scrollbar-track{
+  background: var(--grack_dark);
+  border-radius: 0.75vw;
+  margin-block: 0.5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--offwhite_gentle);
+  border-radius: 0.75vw;
+  border: 0.2vw solid var(--grack_dark);
+}
+
+/* ensures footer always sticks to bottom */
+/* makes background color dark grey */
+body{
+    height: 100%;
+    background-color: var(--grey);
+}
+
+@media screen and (max-width:35.5625em){
+  body{
+    background-color: var(--offwhite_grack);
+  }
+}
+
+/* paragraphs */
+p{
+  font-family: c10p;
+  font-size: 1.1vw;
+  line-height: 2;
+}
+
+/* headings */
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 7.5vw;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+h2{
+  font-family: c10p;
+  font-size: 7.5vw;
+  font-weight: 100;
+  line-height: 1.25;
+}
+  
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5.5vw;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+h4{
+  font-family: c10p;
+  font-size: 5vw;
+  font-weight: 100;
+  line-height: 1.25;
+}
+
+h5{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3vw;
+  line-height: 2;
+  font-weight: bold;
+}
+
+h6{
+  font-family: c10p;
+  font-size: 2vw;
+  font-weight: 100;
+  line-height: 2;
+}
+
+@media screen and (max-width:64em){
+  p{
+    font-size: 1.5vw;
+  }
+
+  h1{
+    font-size: 15vw;
+  }
+
+  h2{
+    font-size: 8vw;
+  }
+
+  h3{
+    font-size: 11vw;
+  }
+
+  h4{
+    font-size: 5vw;
+  }
+
+  h5{
+    font-size: 3vw;
+  }
+
+  h6{
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width:35.5625em){
+  p{
+    font-size: 3vw;
+  }
+
+  h1{
+    font-size: 15vw;
+  }
+  
+  h2{
+    font-size: 15vw;
+  }
+    
+  h3{
+    font-size: 11vw;
+  }
+  
+  h4{
+    font-size: 10vw;
+  }
+  
+  h5{
+    font-size: 6vw;
+  }
+  
+  h6{
+    font-size: 5vw;
+  }
+}
+
+/* links */
+a{
+  text-decoration: none;
+  color: var(--grack_pop);
+}
+
+/* superscripts */
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+/* highlight color */
+::selection{
+  background-color: var(--highlight);
+}
+
+/* captions */
+.caption{
+  font-family: c10p;
+  font-size: 1.1vw;
+  text-align: center;
+  padding: 0% 10% 0% 10%;
+}
