@@ -1,0 +1,1 @@
+Hello, this is a collection of a lot of my work through my university years. Some of the assets/code for these projects do not belong to me, so I had to remove them therefore making the projects not compile though most of the work I've done should be here. Proofs of my work is also provided
